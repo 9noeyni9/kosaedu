@@ -47,7 +47,7 @@ public class TwoArrayLab1 {
 		System.out.print("오른쪽 대각선 데이터들 : ");
 		for (int row = 0; row < twoAr.length; row++) {
 			for (int col = 0; col < twoAr[row].length; col++) {
-				if (1==1) {
+				if (row==col) {
 					System.out.print(twoAr[row][col] + " ");
 				}
 			}
